@@ -1,0 +1,99 @@
+<! type="submit">ChanDOCTYPE html>
+<html>
+<head>
+	<title>Password Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Aboreto' rel='stylesheet'>
+</head>
+<body>
+	<div class="pwd-form">
+        <h1>Password Page</h1>
+        <br>
+    <div class="container">
+	<form>
+		<label for="current-password">Current Password:</label><br>
+		<input type="password" id="current-password" name="current-password"><br>
+		<label for="new-password">New Password:</label><br>
+		<input type="password" id="new-password" name="new-password"><br>
+		<buttonge Password</button>
+		<br><br>
+		<input type="checkbox" onclick="togglePasswordVisibility('current-password')"> Show current password
+		<br><br>
+		<input type="checkbox" onclick="togglePasswordVisibility('new-password')"> Show new password
+	</form>
+    </div>
+    </div>
+
+	<script>
+		function togglePasswordVisibility(passwordId) {
+			const passwordInput = document.getElementById(passwordId);
+			if (passwordInput.type === "password") {
+				passwordInput.type = "text";
+			} else {
+				passwordInput.type = "password";
+			}
+		}
+	</script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Webpage</title>
+	<style>
+		body {
+			background-color: #ffcccc;
+		}
+	</style>
+</head>
+<body>
+	
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bird on My Webpage</title>
+</head>
+<body>
+	<h1>Welcome to my webpage!</h1>
+	<p>Here's a bird:</p>
+	<svg width="100" height="100">
+		<rect x="10" y="10" width="80" height="80" fill="#ffcccc" />
+		<circle cx="50" cy="50" r="40" fill="#ccffcc" />
+		<path d="M 40 70 Q 50 80, 60 70" stroke="#333" stroke-width="2" fill="none" />
+	</svg>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Password Page</title>
+	<style>
+		#password-box {
+			background-color: #fff;
+			border: 1px solid #ccc;
+			padding: 20px;
+			box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+			width: 300px;
+			margin: 0 auto;
+			margin-top: 50px;
+		}
+	</style>
+</head>
+<body>
+	<div id="password-box">
+		<h1>Password Page</h1>
+		<form>
+			<label for="current-password">Current Password:</label><br>
+			<input type="password" id="current-password" name="current-password"><br>
+			<label for="new-password">New Password:</label><br>
+			<input type="password" id="new-password" name="new-password"><br>
+			<button type="submit">Change Password</button>
+		</form>
+	</div>
+</body>
+</html>
+
+		
+		
